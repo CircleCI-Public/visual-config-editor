@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/visual-config-editor/static/css/main.38479f65.chunk.css",
+    "main.js": "/visual-config-editor/static/js/main.676d6e15.chunk.js",
+    "main.js.map": "/visual-config-editor/static/js/main.676d6e15.chunk.js.map",
+    "runtime-main.js": "/visual-config-editor/static/js/runtime-main.2cf04b0b.js",
+    "runtime-main.js.map": "/visual-config-editor/static/js/runtime-main.2cf04b0b.js.map",
+    "static/js/2.9ac06f21.chunk.js": "/visual-config-editor/static/js/2.9ac06f21.chunk.js",
+    "static/js/2.9ac06f21.chunk.js.map": "/visual-config-editor/static/js/2.9ac06f21.chunk.js.map",
+    "css.worker.js": "/visual-config-editor/css.worker.js",
+    "css.worker.js.map": "/visual-config-editor/css.worker.js.map",
+    "editor.worker.js": "/visual-config-editor/editor.worker.js",
+    "editor.worker.js.map": "/visual-config-editor/editor.worker.js.map",
+    "html.worker.js": "/visual-config-editor/html.worker.js",
+    "html.worker.js.map": "/visual-config-editor/html.worker.js.map",
+    "index.html": "/visual-config-editor/index.html",
+    "json.worker.js": "/visual-config-editor/json.worker.js",
+    "json.worker.js.map": "/visual-config-editor/json.worker.js.map",
+    "static/css/main.38479f65.chunk.css.map": "/visual-config-editor/static/css/main.38479f65.chunk.css.map",
+    "static/js/2.9ac06f21.chunk.js.LICENSE.txt": "/visual-config-editor/static/js/2.9ac06f21.chunk.js.LICENSE.txt",
+    "ts.worker.js": "/visual-config-editor/ts.worker.js",
+    "ts.worker.js.LICENSE.txt": "/visual-config-editor/ts.worker.js.LICENSE.txt",
+    "ts.worker.js.map": "/visual-config-editor/ts.worker.js.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2cf04b0b.js",
+    "static/js/2.9ac06f21.chunk.js",
+    "static/css/main.38479f65.chunk.css",
+    "static/js/main.676d6e15.chunk.js"
+  ]
+}
