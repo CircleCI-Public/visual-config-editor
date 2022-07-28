@@ -42,7 +42,7 @@ const DefinitionsMenu = (props: { expanded: boolean[] }) => {
           className="px-2 flex-1 w-full flex-col overflow-y-scroll"
           style={{ height: 'calc(100vh - 200px)' }}
         >
-          <OrbImportsContainer />
+          <OrbImportsContainer aria-label="Orb Imports" />
           {dataMappings.map((mapping, index) => {
             const dataType = mapping.mapping as InspectableMapping;
 
@@ -149,6 +149,7 @@ const DefinitionsMenu = (props: { expanded: boolean[] }) => {
         <Button
           variant={config ? 'secondary' : 'primary'}
           className=" w-min whitespace-nowrap"
+          aria-label="Open Configuration File"
           onClick={(e) => {
             inputFile.current?.click();
             e.stopPropagation();
@@ -159,6 +160,7 @@ const DefinitionsMenu = (props: { expanded: boolean[] }) => {
         {config && (
           <Button
             variant="primary"
+            aria-label="Generate Configuration"
             className=" w-min whitespace-nowrap"
             onClick={(e) => updateConfig()}
           >

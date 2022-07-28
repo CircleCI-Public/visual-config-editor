@@ -11,6 +11,7 @@ const Toast = () => {
           className={
             'flex flex-row text-white bg-circle-gray-700 p-3 w-full transition-opacity rounded'
           }
+          aria-label={toast?.label}
           onClick={() => {
             setToast();
           }}

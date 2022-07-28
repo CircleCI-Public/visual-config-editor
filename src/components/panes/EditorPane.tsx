@@ -24,7 +24,10 @@ const EditorPane = () => {
   };
 
   return (
-    <div className="bg-circle-gray-900 h-2/5 w-full flex flex-col">
+    <div
+      aria-label="Editor Pane"
+      className="bg-circle-gray-900 h-2/5 w-full flex flex-col"
+    >
       <div className="border-b text-xl border-circle-gray-800 font-bold flex flex-row">
         <div className="ml-4 border-b-4 px-3 py-3 w-max text-sm tracking-wide font-bold text-white border-white">
           CONFIG

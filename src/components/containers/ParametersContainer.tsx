@@ -21,6 +21,7 @@ const ParameterContainer = (props: {
       render={(_) => (
         <div className="p-6 flex flex-col">
           <button
+            aria-label="Parameters"
             type="button"
             onClick={() => {
               if (!ParameterMapping.subtypes) {

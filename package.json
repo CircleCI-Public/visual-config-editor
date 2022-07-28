@@ -24,7 +24,8 @@
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "typescript": "^4.4.3",
     "uuid": "^8.3.2",
-    "web-vitals": "^2.1.2"
+    "web-vitals": "^2.1.2",
+    "react-aria": "3.17.0"
   },
   "resolutions": {
     "@types/react": "^17.0.38"

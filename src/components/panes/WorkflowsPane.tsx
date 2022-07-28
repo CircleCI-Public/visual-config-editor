@@ -7,7 +7,10 @@ const WorkflowsPane = () => {
   const selectedWorkflow = useStoreState((state) => state.selectedWorkflow);
 
   return (
-    <div className="flex flex-col flex-nowrap flex-1">
+    <div
+      arial-label="Workflows Pane"
+      className="flex flex-col flex-nowrap flex-1"
+    >
       <header className="flex w-full bg-white h-16">
         <div className="p-2 flex flex-row my-auto">
           <Logo className="mx-2" />
